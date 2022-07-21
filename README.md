@@ -34,7 +34,7 @@ The task of this project was to use Python to create a gaussian blur filter that
 
 1. Follow the schematic bellow to connect your components:
 
-    <img src="./.github/images/schematic.svg" style="background-color:#ffffff">
+    ![Schematic](./.github/images/schematic.svg "Schematic")
 2. Download ```ArduinoProject.ino``` file from the repository
 3. Download [Arduino IDE](https://www.arduino.cc/en/software/)
 4. Flash the code onto the Arduino

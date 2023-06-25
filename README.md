@@ -1,28 +1,27 @@
 <h1 align="center">Sensor System</h1>
 
-This project was given as a final exam for "Sensor Systems" at Singidunum University. The goal of this course was to teach students about how sensors work and how retrieved images can be processed to gain useful information that can be used to control other parts of a system.
-
-The project was split into two parts:
+"Sensor System" is a final exam project for the "Sensor Systems" course at Singidunum University. The course was designed to teach students how to use sensors and micro-controllers to create a system that can be used to solve a real-world problem. To combine all the knowledge we learned during the course, we were tasked to create two projects. The first project was to be done using an Arduino micro-controller, while the second project was to be done using Python.
 
 ### Arduino Project
 
-The task of this project was to use an ultrasonic sensor to read the distance from an object and, depending on distance speed up or slow down an electrical motor. This motor is part of an optical encoder which is used to calculate rotary speed of a disc attached to the motor. After reading the data, the speed (m/s) was printed out through the serial port.
+The Arduino was used to create a system that controls the speed of a motor depending on the distance from an object. To achieve this, we used an ultrasonic sensor to read the distance from an object, and depending on the distance, we would speed up or slow down the motor. The motor was connected to an optical encoder which was used to calculate the speed of the wheel attached to the motor. After reading the data, the speed (m/s) was printed out through the serial port.
 
 ### Image Processing Project
 
-The task of this project was to use Python to create a gaussian blur filter that can be applied to an image. Besides creating the filter, we were also tasked to show the image in color, grayscale, as well as compute a histogram and CDF. This task had to be done in a Jupyter Notebook file.
+Python was used to perform different image processing tasks on a given image. The tasks were to create a gaussian blur filter that can be applied to an image, show the image in color, grayscale, as well as compute a histogram and CDF of the image. The project was done using Jupyter Notebook.
 
 ## 🧰 Languages & Tools
 
 <a href="https://code.visualstudio.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="30px" alt="VSCode" title="Visual Studio Code"></a>
 <a href="https://www.arduino.cc/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="30px" alt="Arduino" title="Arduino"></a>
-<a href="https://jupyter.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="30px" alt="Jupyter Notebook" title="Jupyter Notebook"></a>
-<a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="30px" alt="C++" title="C++ Programming Language"></a>
 <a href="https://www.python.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30px" alt="Python" title="Python Programming Language"></a>
+<a href="https://jupyter.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="30px" alt="Jupyter Notebook" title="Jupyter Notebook"></a>
 
 ## ⚡ Getting Started - Arduino
 
 ### 🛠 Requirements:
+
+#### Hardware:
 
 - Arduino Uno Rev3
 - HC-SR04 Ultrasonic sensor
@@ -30,15 +29,18 @@ The task of this project was to use Python to create a gaussian blur filter that
 - Motor with optical encoder
 - 12V Power Supply
 
+#### Software:
+
+- [Arduino IDE](https://www.arduino.cc/en/software/)
+
 ### 📖 Guide:
 
 1. Follow the schematic bellow to connect your components:
 
-    ![Schematic](./.github/images/schematic.svg "Schematic")
+    ![Schematic](.github/images/schematic.svg "Schematic")
 2. Download ```ArduinoProject.ino``` file from the repository
-3. Download [Arduino IDE](https://www.arduino.cc/en/software/)
-4. Flash the code onto the Arduino
-5. Enjoy 🙂
+3. Flash the code onto the Arduino
+4. Enjoy 🙂
 
 ## ⚡ Getting Started - Jupyter
 

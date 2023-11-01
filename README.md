@@ -35,7 +35,7 @@ Python was used to perform different image processing tasks on a given image. Th
 
 ### 📖 Guide:
 
-1. Follow the schematic bellow to connect your components:
+1. Follow the schematic below to connect your components:
 
     ![Schematic](.github/images/schematic.svg "Schematic")
 2. Download ```ArduinoProject.ino``` file from the repository

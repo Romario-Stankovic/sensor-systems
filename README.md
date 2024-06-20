@@ -1,6 +1,6 @@
-<h1 align="center">Sensor System</h1>
+<h1 align="center">Speed Control System</h1>
 
-"Sensor System" is a final exam project for the "Sensor Systems" course at Singidunum University. The course was designed to teach students how to use sensors and micro-controllers to create a system that can be used to solve a real-world problem. To combine all the knowledge we learned during the course, we were tasked to create two projects. The first project was to be done using an Arduino micro-controller, while the second project was to be done using Python.
+"Speed Control System" is a final exam project for the "Sensor Systems" course at Singidunum University. The course was designed to teach students how to use sensors and micro-controllers to create a system that can be used to solve a real-world problem. To combine all the knowledge we learned during the course, we were tasked to create two projects. The first project was to be done using an Arduino micro-controller, while the second project was to be done using Python.
 
 ### Arduino Project
 
@@ -37,7 +37,7 @@ Python was used to perform different image processing tasks on a given image. Th
 
 1. Follow the schematic below to connect your components:
 
-    ![Schematic](.github/images/schematic.svg "Schematic")
+    ![Schematic](.github/images/schema.png "Schema")
 2. Download ```ArduinoProject.ino``` file from the repository
 3. Flash the code onto the Arduino
 4. Enjoy 🙂
